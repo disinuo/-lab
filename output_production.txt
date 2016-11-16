@@ -1,0 +1,45 @@
+S-->while ( A ) { S } 
+A-->F relop F A' 
+F-->id 
+F-->number 
+A'-->$ 
+S-->if ( A ) { S } B 
+A-->F relop F A' 
+F-->id 
+F-->number 
+A'-->E A' 
+E-->or A 
+A-->F relop F A' 
+F-->id 
+F-->number 
+A'-->E A' 
+E-->and A 
+A-->F relop F A' 
+F-->id 
+F-->number 
+A'-->$ 
+A'-->$ 
+A'-->$ 
+S-->id = C ; 
+C-->D C' 
+D-->F D' 
+F-->number 
+D'-->multiply F D' 
+F-->number 
+D'-->$ 
+C'-->add D C' 
+D-->F D' 
+F-->number 
+D'-->$ 
+C'-->$ 
+B-->else { S } 
+S-->id = C ; 
+C-->D C' 
+D-->F D' 
+F-->number 
+D'-->$ 
+C'-->add D C' 
+D-->F D' 
+F-->number 
+D'-->$ 
+C'-->$ 
