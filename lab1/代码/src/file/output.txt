@@ -1,0 +1,46 @@
+<    保留字PUBLIC  ,       >
+<    保留字CLASS  ,       >
+<    ID  ,   Main    >
+<    分隔符  ,   {    >
+<    保留字PUBLIC  ,       >
+<    保留字STATIC  ,       >
+<    保留字VOID  ,       >
+<    ID  ,   main    >
+<    分隔符  ,   (    >
+<    ID  ,   String    >
+<    分隔符  ,   [    >
+<    分隔符  ,   ]    >
+<    ID  ,   args    >
+<    分隔符  ,   )    >
+<    分隔符  ,   {    >
+<    ID  ,   ArrayList    >
+<    比较符  ,   <    >
+<    ID  ,   String    >
+<    比较符  ,   >    >
+<    ID  ,   input    >
+<    运算符  ,   =    >
+<    ID  ,   IOHelper    >
+<    分隔符  ,   .    >
+<    ID  ,   getInputWord    >
+<    分隔符  ,   (    >
+<    分隔符  ,   "    >
+<    ID  ,   src    >
+<    运算符  ,   /    >
+<    ID  ,   file    >
+<    运算符  ,   /    >
+<    ID  ,   input    >
+<    分隔符  ,   .    >
+<    ID  ,   txt    >
+<    分隔符  ,   "    >
+<    分隔符  ,   )    >
+<    分隔符  ,   ;    >
+<    ID  ,   LexAnalyser    >
+<    ID  ,   analyser    >
+<    运算符  ,   =    >
+<    保留字NEW  ,       >
+<    ID  ,   LexAnalyser    >
+<    分隔符  ,   (    >
+<    ID  ,   input    >
+<    分隔符  ,   )    >
+<    分隔符  ,   ;    >
+<    分隔符  ,   }    >
